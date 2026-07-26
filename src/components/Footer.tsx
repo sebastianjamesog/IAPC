@@ -33,9 +33,9 @@ export default function Footer() {
             </p>
 
             <div className="flex items-center gap-4 text-[#d4d4d4] pt-1">
-              <a href="tel:+919876543210" className="hover:text-[#ffffff] flex items-center gap-1.5">
+              <a href="tel:+919847335788" className="hover:text-[#ffffff] flex items-center gap-1.5 font-bold">
                 <Phone className="w-3.5 h-3.5 text-[#ffffff]" />
-                <span>+91 98765 43210</span>
+                <span>+91 9847335788</span>
               </a>
               <a href="mailto:admissions@iapc.com" className="hover:text-[#ffffff] flex items-center gap-1.5">
                 <Mail className="w-3.5 h-3.5 text-[#d4d4d4]" />
@@ -56,6 +56,11 @@ export default function Footer() {
               <li>
                 <a href="#pain-explorer" className="hover:text-[#ffffff] transition">
                   Interactive Pain Relief Map
+                </a>
+              </li>
+              <li>
+                <a href="#publications" className="hover:text-[#ffffff] transition">
+                  Institutional Publications
                 </a>
               </li>
               <li>
@@ -86,7 +91,7 @@ export default function Footer() {
               </p>
               <p className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[#d4d4d4] shrink-0 mt-0.5" />
-                <span>Institute of Acupuncture & Pain Control, Main Academic Campus, Healthcare & Wellness Corridor, India.</span>
+                <span>Institute of Acupuncture & Pain Control (IAPC), Parinamam Road, Kaloor, Kochi - 682017, Kerala, India.</span>
               </p>
               <div className="p-3 rounded-xl bg-[#2b2b2b] border border-[#b3b3b3]/30 text-[11px] text-[#d4d4d4] space-y-1">
                 <div className="flex items-center gap-1 text-[#ffffff] font-bold">

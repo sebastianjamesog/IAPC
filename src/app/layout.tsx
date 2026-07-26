@@ -12,18 +12,18 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://iapc.com"),
   title: "Institute of Acupuncture & Pain Control | Diploma Course, MD & PhD Guidance",
   description:
-    "Empowering Healing Through Ancient Wisdom & Modern Science. Master clinical acupuncture with our Diploma Course for ₹25,000/- (All-Inclusive). Practical training for Back Pain, Sciatica, Migraines & Arthritis, plus Global University MD & PhD preparation.",
+    "Empowering Healing Through Ancient Wisdom & Modern Science. Master clinical acupuncture with our Diploma Course for ₹25,000/- (All-Inclusive) at Parinamam Road, Kaloor, Kochi. Call +91 9847335788.",
   keywords: [
     "Institute of Acupuncture & Pain Control",
-    "IAPC",
+    "IAPC Kochi",
+    "Acupuncture Course Kochi Kaloor",
     "Diploma Course in Acupuncture",
     "Acupuncture Course Fee 25000",
-    "Pain Management Acupuncture",
+    "Pain Management Acupuncture Kerala",
     "MD Acupuncture University Preparation",
     "PhD Acupuncture Research Guidance",
-    "Acupuncture for Health Promoters",
-    "Traditional Chinese Medicine India",
-    "Sciatica Acupuncture Protocol",
+    "Acupuncture Dr V Mohandas",
+    "Total Health Through Alternative Medicines",
   ],
   authors: [{ name: "Institute of Acupuncture & Pain Control" }],
   creator: "Institute of Acupuncture & Pain Control",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Institute of Acupuncture & Pain Control | Diploma & Doctoral Guidance",
     description:
-      "Empowering Healing Through Ancient Wisdom & Modern Science. Certified Diploma Course in Acupuncture for ₹25,000/-. Practical clinical pain management training.",
+      "Empowering Healing Through Ancient Wisdom & Modern Science. Certified Diploma Course in Acupuncture for ₹25,000/-. Located at Kaloor, Kochi. Call +91 9847335788.",
     url: "https://iapc.com",
     siteName: "Institute of Acupuncture & Pain Control (IAPC)",
     locale: "en_US",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Institute of Acupuncture & Pain Control | Certified Acupuncture Education",
     description:
-      "Empowering Healing Through Ancient Wisdom & Modern Science. Diploma Course (₹25,000) & Global University MD/PhD Guidance.",
+      "Empowering Healing Through Ancient Wisdom & Modern Science. Diploma Course (₹25,000) & Global University MD/PhD Guidance. Kaloor, Kochi.",
     images: ["https://iapc.com/og-image.jpg"],
   },
   alternates: {
@@ -86,11 +86,14 @@ export default function RootLayout({
         logo: "https://iapc.com/logo.png",
         description:
           "Premier educational institution dedicated to authentic acupuncture education, clinical pain management, and global university degree preparation.",
-        telephone: "+91-9876543210",
+        telephone: "+91-9847335788",
         email: "admissions@iapc.com",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "Healthcare & Wellness Corridor",
+          streetAddress: "Parinamam Road, Kaloor",
+          addressLocality: "Kochi",
+          addressRegion: "Kerala",
+          postalCode: "682017",
           addressCountry: "IN",
         },
       },
@@ -159,7 +162,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="bg-[#04090d] text-slate-100 antialiased min-h-screen flex flex-col selection:bg-teal-500 selection:text-slate-950">
+      <body className="bg-[#2b2b2b] text-slate-100 antialiased min-h-screen flex flex-col selection:bg-[#ffffff] selection:text-[#2b2b2b]">
         {children}
       </body>
     </html>

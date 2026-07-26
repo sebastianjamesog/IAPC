@@ -82,10 +82,10 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
                 {/* Clinical Image Container */}
                 <div className="relative h-64 sm:h-72 w-full overflow-hidden">
                   <Image
-                    src="/images/hero.png"
-                    alt="Clinical Electro-Acupuncture Therapy for Pain Relief"
+                    src="/images/hero_electro_treatment.png"
+                    alt="Clinical Electro-Acupuncture Therapy with Needles and Stimulation"
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-700 brightness-90"
+                    className="object-cover group-hover:scale-105 transition-transform duration-700 brightness-95"
                     priority
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#242424] via-[#242424]/40 to-transparent" />
@@ -93,7 +93,7 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
                   {/* Badge */}
                   <div className="absolute top-4 left-4 right-4 flex items-center justify-between z-10">
                     <span className="text-[11px] font-bold uppercase tracking-wider text-[#2b2b2b] bg-[#ffffff] px-3 py-1 rounded-full shadow border border-[#d4d4d4]">
-                      Clinical Acupuncture Practice
+                      Electro-Acupuncture Therapy
                     </span>
                     <div className="flex items-center gap-1 text-[#ffffff] text-xs font-bold bg-[#1e1e1e]/80 backdrop-blur-md px-2.5 py-1 rounded-full border border-[#b3b3b3]/40">
                       <Zap className="w-3.5 h-3.5 text-[#ffffff] fill-[#ffffff]" />

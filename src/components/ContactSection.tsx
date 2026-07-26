@@ -45,8 +45,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <span className="text-xs text-[#b3b3b3] block">Admissions & Counseling Phone:</span>
-                    <a href="tel:+919876543210" className="text-sm font-bold text-[#ffffff] hover:text-[#d4d4d4] transition">
-                      +91 98765 43210 / +91 98765 43211
+                    <a href="tel:+919847335788" className="text-sm font-bold text-[#ffffff] hover:text-[#d4d4d4] transition">
+                      +91 9847335788
                     </a>
                   </div>
                 </div>
@@ -83,8 +83,8 @@ export default function ContactSection() {
                     <span className="text-xs text-[#b3b3b3] block">Campus Address:</span>
                     <p className="text-sm font-medium text-[#d4d4d4]">
                       Institute of Acupuncture & Pain Control (IAPC),<br />
-                      Main Academic Campus, Healthcare & Wellness Corridor,<br />
-                      Opp. Medical Research Center, Metro Station Gate 2.
+                      Parinamam Road, Kaloor,<br />
+                      Kochi - 682017, Kerala, India.
                     </p>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ export default function ContactSection() {
                     <input
                       type="tel"
                       required
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 9847335788"
                       value={quickForm.phone}
                       onChange={(e) => setQuickForm({ ...quickForm, phone: e.target.value })}
                       className="w-full px-4 py-2.5 rounded-xl bg-[#1e1e1e] border border-[#b3b3b3]/30 text-[#ffffff] text-xs focus:outline-none focus:border-[#ffffff]"
