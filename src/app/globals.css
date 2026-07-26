@@ -1,26 +1,87 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #2b2b2b;
+    --foreground: #ffffff;
+    --silver-light: #ffffff;
+    --silver-mid: #d4d4d4;
+    --silver-dark: #b3b3b3;
+    --charcoal-bg: #2b2b2b;
+    --charcoal-deep: #1e1e1e;
+    --charcoal-card: #242424;
+  }
+
+  body {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+::-webkit-scrollbar-thumb {
+  background: #b3b3b3;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4d4d4;
+}
+
+/* Custom Silver Glow Effects */
+.glow-silver {
+  box-shadow: 0 0 30px -5px rgba(212, 212, 212, 0.25);
+}
+.glow-charcoal {
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5);
+}
+
+.gradient-text-silver {
+  background: linear-gradient(135deg, #ffffff 0%, #d4d4d4 50%, #b3b3b3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-charcoal {
+  background: linear-gradient(135deg, #d4d4d4 0%, #b3b3b3 50%, #808080 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-silver-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #d4d4d4 60%, #b3b3b3 100%);
+}
+
+.bg-charcoal-card {
+  background-color: #242424;
+}
+
+.bg-charcoal-deep {
+  background-color: #1e1e1e;
+}
+
+/* Subtle background animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.04); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulseGlow 4s ease-in-out infinite;
 }
