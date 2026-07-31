@@ -46,7 +46,7 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
               </div>
               <div className="flex items-center gap-2 text-sm text-[#ffffff] bg-[#242424] p-2.5 rounded-xl border border-[#b3b3b3]/30">
                 <CheckCircle2 className="w-4 h-4 text-[#ffffff] shrink-0" />
-                <span>₹25,000 All-Inclusive Fee</span>
+                <span>₹20,000 All-Inclusive Fee</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-[#ffffff] bg-[#242424] p-2.5 rounded-xl border border-[#b3b3b3]/30">
                 <CheckCircle2 className="w-4 h-4 text-[#d4d4d4] shrink-0" />
@@ -61,7 +61,7 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
                 className="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-[#ffffff] via-[#d4d4d4] to-[#b3b3b3] text-[#2b2b2b] text-base font-extrabold shadow-xl hover:shadow-white/20 hover:scale-[1.02] transition-all flex items-center justify-center gap-2.5"
               >
                 <GraduationCap className="w-5 h-5 text-[#2b2b2b]" />
-                <span>Enroll in Diploma (₹25,000)</span>
+                <span>Enroll in Diploma (₹20,000)</span>
                 <ArrowRight className="w-4 h-4 text-[#2b2b2b]" />
               </button>
 
@@ -110,14 +110,14 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
                       <p className="text-xs text-[#d4d4d4] font-medium">For Healthcare Professionals & Seekers</p>
                     </div>
                     <span className="text-sm font-black text-[#2b2b2b] bg-[#ffffff] px-2.5 py-1 rounded-lg border border-[#b3b3b3]">
-                      ₹25,000
+                      ₹20,000
                     </span>
                   </div>
 
                   <div className="space-y-2 text-xs text-[#d4d4d4]">
                     <div className="flex justify-between">
                       <span className="text-[#b3b3b3]">Duration:</span>
-                      <span className="font-semibold text-[#ffffff]">6 Months Intensive</span>
+                      <span className="font-semibold text-[#ffffff]">3 Months Intensive</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-[#b3b3b3]">Clinical Focus:</span>

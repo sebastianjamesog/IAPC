@@ -37,9 +37,9 @@ export default function Footer() {
                 <Phone className="w-3.5 h-3.5 text-[#ffffff]" />
                 <span>+91 9847335788</span>
               </a>
-              <a href="mailto:admissions@iapc.com" className="hover:text-[#ffffff] flex items-center gap-1.5">
+              <a href="mailto:iapcoo123@gmail.com" className="hover:text-[#ffffff] flex items-center gap-1.5 font-semibold">
                 <Mail className="w-3.5 h-3.5 text-[#d4d4d4]" />
-                <span>admissions@iapc.com</span>
+                <span>iapcoo123@gmail.com</span>
               </a>
             </div>
           </div>
@@ -50,7 +50,7 @@ export default function Footer() {
             <ul className="space-y-2 text-[#d4d4d4]">
               <li>
                 <a href="#diploma" className="hover:text-[#ffffff] transition">
-                  Diploma Course in Acupuncture (₹25,000)
+                  Diploma Course in Acupuncture (₹20,000)
                 </a>
               </li>
               <li>

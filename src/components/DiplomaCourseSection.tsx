@@ -159,7 +159,7 @@ export default function DiplomaCourseSection({ onOpenEnrollModal }: DiplomaCours
                   <Clock className="w-5 h-5 text-[#ffffff] shrink-0" />
                   <div>
                     <span className="text-xs text-[#b3b3b3] block">Duration & Format</span>
-                    <span className="text-sm font-bold text-[#ffffff]">6 Months (Weekend/Flexible Batches + Practical Workshops)</span>
+                    <span className="text-sm font-bold text-[#ffffff]">3 Months (Weekend/Flexible Batches + Practical Workshops)</span>
                   </div>
                 </div>
 
@@ -189,7 +189,7 @@ export default function DiplomaCourseSection({ onOpenEnrollModal }: DiplomaCours
               onClick={onOpenEnrollModal}
               className="w-full mt-6 py-3.5 rounded-xl bg-gradient-to-r from-[#ffffff] via-[#d4d4d4] to-[#b3b3b3] text-[#2b2b2b] font-extrabold text-sm shadow-lg hover:shadow-white/20 transition"
             >
-              Enroll Now (₹25,000 Full Fee)
+              Enroll Now (₹20,000 Full Fee)
             </button>
           </div>
 

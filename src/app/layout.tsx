@@ -12,13 +12,14 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://iapc.com"),
   title: "Institute of Acupuncture & Pain Control | Diploma Course, MD & PhD Guidance",
   description:
-    "Empowering Healing Through Ancient Wisdom & Modern Science. Master clinical acupuncture with our Diploma Course for ₹25,000/- (All-Inclusive) at Parinamam Road, Kaloor, Kochi. Call +91 9847335788.",
+    "Empowering Healing Through Ancient Wisdom & Modern Science. Master clinical acupuncture with our 3-Month Diploma Course for ₹20,000/- (All-Inclusive) at Parinamam Road, Kaloor, Kochi. Call +91 9847335788.",
   keywords: [
     "Institute of Acupuncture & Pain Control",
     "IAPC Kochi",
     "Acupuncture Course Kochi Kaloor",
     "Diploma Course in Acupuncture",
-    "Acupuncture Course Fee 25000",
+    "Acupuncture Course Fee 20000",
+    "3 Month Acupuncture Course",
     "Pain Management Acupuncture Kerala",
     "MD Acupuncture University Preparation",
     "PhD Acupuncture Research Guidance",
@@ -40,9 +41,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Institute of Acupuncture & Pain Control | Diploma & Doctoral Guidance",
+    title: "Institute of Acupuncture & Pain Control | Certified Diploma & Doctoral Guidance",
     description:
-      "Empowering Healing Through Ancient Wisdom & Modern Science. Certified Diploma Course in Acupuncture for ₹25,000/-. Located at Kaloor, Kochi. Call +91 9847335788.",
+      "Empowering Healing Through Ancient Wisdom & Modern Science. Certified 3-Month Diploma Course in Acupuncture for ₹20,000/-. Located at Kaloor, Kochi. Call +91 9847335788.",
     url: "https://iapc.com",
     siteName: "Institute of Acupuncture & Pain Control (IAPC)",
     locale: "en_US",
@@ -60,7 +61,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Institute of Acupuncture & Pain Control | Certified Acupuncture Education",
     description:
-      "Empowering Healing Through Ancient Wisdom & Modern Science. Diploma Course (₹25,000) & Global University MD/PhD Guidance. Kaloor, Kochi.",
+      "Empowering Healing Through Ancient Wisdom & Modern Science. 3-Month Diploma Course (₹20,000) & Global University MD/PhD Guidance. Kaloor, Kochi.",
     images: ["https://iapc.com/og-image.jpg"],
   },
   alternates: {
@@ -87,7 +88,7 @@ export default function RootLayout({
         description:
           "Premier educational institution dedicated to authentic acupuncture education, clinical pain management, and global university degree preparation.",
         telephone: "+91-9847335788",
-        email: "admissions@iapc.com",
+        email: "iapcoo123@gmail.com",
         address: {
           "@type": "PostalAddress",
           streetAddress: "Parinamam Road, Kaloor",
@@ -102,7 +103,7 @@ export default function RootLayout({
         "@id": "https://iapc.com/#diploma-course",
         name: "Diploma Course in Acupuncture",
         description:
-          "Comprehensive 6-month clinical diploma covering TCM theories, meridian pathways, point location, needling techniques, and specialized pain management for arthritis, back pain, migraines, and sciatica.",
+          "Comprehensive 3-month clinical diploma covering TCM theories, meridian pathways, point location, needling techniques, and specialized pain management for arthritis, back pain, migraines, and sciatica.",
         provider: {
           "@type": "Organization",
           name: "Institute of Acupuncture & Pain Control",
@@ -110,7 +111,7 @@ export default function RootLayout({
         },
         offers: {
           "@type": "Offer",
-          price: "25000",
+          price: "20000",
           priceCurrency: "INR",
           category: "Full Course All-Inclusive Fee",
           availability: "https://schema.org/InStock",
@@ -118,7 +119,7 @@ export default function RootLayout({
         hasCourseInstance: {
           "@type": "CourseInstance",
           courseMode: "Blended (Practical Workshops & Online Modules)",
-          duration: "P6M",
+          duration: "P3M",
         },
       },
       {
@@ -146,7 +147,7 @@ export default function RootLayout({
             name: "What is the fee for the Diploma Course in Acupuncture?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "The full course fee is ₹25,000/- all-inclusive, covering tuition, practical needle kits, study materials, and certification exam fees.",
+              text: "The full course fee is ₹20,000/- all-inclusive, covering tuition, practical needle kits, study materials, and certification exam fees.",
             },
           },
         ],

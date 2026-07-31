@@ -9,7 +9,7 @@ interface EnrollmentFormProps {
   defaultProgram?: string;
 }
 
-export default function EnrollmentForm({ isOpen, onClose, defaultProgram = "Diploma Course in Acupuncture (₹25,000)" }: EnrollmentFormProps) {
+export default function EnrollmentForm({ isOpen, onClose, defaultProgram = "Diploma Course in Acupuncture (₹20,000)" }: EnrollmentFormProps) {
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -141,8 +141,8 @@ export default function EnrollmentForm({ isOpen, onClose, defaultProgram = "Dipl
                   onChange={(e) => setFormData({ ...formData, program: e.target.value })}
                   className="w-full px-4 py-2.5 rounded-xl bg-[#1e1e1e] border border-[#b3b3b3]/30 text-[#ffffff] text-xs focus:outline-none focus:border-[#ffffff]"
                 >
-                  <option value="Diploma Course in Acupuncture (₹25,000)">
-                    Diploma Course in Acupuncture (₹25,000 - Full Course)
+                  <option value="Diploma Course in Acupuncture (₹20,000)">
+                    Diploma Course in Acupuncture (₹20,000 - Full Course)
                   </option>
                   <option value="MD (Acupuncture) University Preparation">
                     MD (Acupuncture) Global University Prep Guidance

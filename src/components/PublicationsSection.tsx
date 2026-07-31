@@ -78,7 +78,7 @@ export default function PublicationsSection({ onOpenEnrollModal }: PublicationsP
                   "Detailed Acupuncture Meridian Pathways",
                   "Classical & Contemporary Alternative Therapies",
                   "Clinical Protocols for Natural Pain Management",
-                  "Included free in ₹25,000 Diploma Kit",
+                  "Included free in ₹20,000 Diploma Kit",
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-2 text-xs text-[#d4d4d4]">
                     <CheckCircle2 className="w-4 h-4 text-[#ffffff] shrink-0" />
@@ -94,7 +94,7 @@ export default function PublicationsSection({ onOpenEnrollModal }: PublicationsP
                 className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-gradient-to-r from-[#ffffff] via-[#d4d4d4] to-[#b3b3b3] text-[#2b2b2b] font-extrabold text-xs shadow-lg flex items-center justify-center gap-2"
               >
                 <GraduationCap className="w-4 h-4 text-[#2b2b2b]" />
-                <span>Get Book with Diploma Course (₹25,000)</span>
+                <span>Get Book with Diploma Course (₹20,000)</span>
               </button>
 
               <a

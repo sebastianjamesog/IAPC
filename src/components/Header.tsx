@@ -23,6 +23,7 @@ export default function Header({ onOpenEnrollModal }: HeaderProps) {
   const navLinks = [
     { name: "About", href: "#about" },
     { name: "Diploma", href: "#diploma" },
+    { name: "Students", href: "#students" },
     { name: "Pain Relief", href: "#pain-explorer" },
     { name: "Publications", href: "#publications" },
     { name: "MD & PhD", href: "#higher-education" },
@@ -92,7 +93,7 @@ export default function Header({ onOpenEnrollModal }: HeaderProps) {
               className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#ffffff] via-[#d4d4d4] to-[#b3b3b3] text-[#2b2b2b] font-black text-xs flex items-center gap-2 shadow-lg hover:shadow-white/20 hover:scale-[1.03] transition-all"
             >
               <GraduationCap className="w-4 h-4 text-[#2b2b2b]" />
-              <span>Enroll Now (₹25,000)</span>
+              <span>Enroll Now (₹20,000)</span>
             </button>
           </div>
 
@@ -134,7 +135,7 @@ export default function Header({ onOpenEnrollModal }: HeaderProps) {
               className="w-full py-3.5 rounded-xl bg-gradient-to-r from-[#ffffff] to-[#d4d4d4] text-[#2b2b2b] font-black text-sm flex items-center justify-center gap-2 shadow-lg"
             >
               <GraduationCap className="w-5 h-5 text-[#2b2b2b]" />
-              <span>Enroll in Diploma Course (₹25,000)</span>
+              <span>Enroll in Diploma Course (₹20,000)</span>
             </button>
           </div>
         </div>

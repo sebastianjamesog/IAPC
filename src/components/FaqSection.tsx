@@ -19,7 +19,7 @@ export default function FaqSection() {
     },
     {
       q: "What is the fee for the Diploma Course in Acupuncture?",
-      a: "The full course fee is ₹25,000/- (All-Inclusive). This covers all classroom lectures, hands-on clinical workshops, a complete practical acupuncture starter kit (needles, moxa, cupping set), study materials, and examination certification fees. Flexible payment options are available.",
+      a: "The full course fee is ₹20,000/- (All-Inclusive). This covers all classroom lectures, hands-on clinical workshops, a complete practical acupuncture starter kit (needles, moxa, cupping set), study materials, and examination certification fees. Flexible payment options are available.",
     },
     {
       q: "What specific pain conditions are covered in the clinical training?",

@@ -9,7 +9,7 @@ interface FeeSectionProps {
 
 export default function FeeSection({ onOpenEnrollModal }: FeeSectionProps) {
   const inclusions = [
-    "Full 6-Months Intensive Lecture & Workshop Tuition",
+    "Full 3-Months Intensive Lecture & Workshop Tuition",
     "Complete Practical Acupuncture Kit (Needles, Moxa, Cupping Set)",
     "Comprehensive Printed Course Study Materials & Charts",
     "Clinical Case Study Supervision & Diagnostic Practice",
@@ -47,7 +47,7 @@ export default function FeeSection({ onOpenEnrollModal }: FeeSectionProps) {
               
               <div>
                 <div className="flex items-baseline justify-center lg:justify-start gap-1">
-                  <span className="text-4xl sm:text-5xl font-black text-[#ffffff]">₹25,000</span>
+                  <span className="text-4xl sm:text-5xl font-black text-[#ffffff]">₹20,000</span>
                   <span className="text-[#b3b3b3] text-sm font-semibold">/ Full Course</span>
                 </div>
                 <p className="text-xs text-[#d4d4d4] font-medium mt-1">100% All-Inclusive • Zero Hidden Charges</p>
@@ -63,7 +63,7 @@ export default function FeeSection({ onOpenEnrollModal }: FeeSectionProps) {
                 className="w-full py-4 rounded-xl bg-gradient-to-r from-[#ffffff] via-[#d4d4d4] to-[#b3b3b3] text-[#2b2b2b] font-extrabold text-sm shadow-lg hover:shadow-white/20 transition flex items-center justify-center gap-2"
               >
                 <GraduationCap className="w-5 h-5 text-[#2b2b2b]" />
-                <span>Enroll Now (₹25,000)</span>
+                <span>Enroll Now (₹20,000)</span>
               </button>
             </div>
 
@@ -71,7 +71,7 @@ export default function FeeSection({ onOpenEnrollModal }: FeeSectionProps) {
             <div className="lg:col-span-7 space-y-4">
               <h3 className="text-base font-bold text-[#ffffff] flex items-center gap-2">
                 <ShieldCheck className="w-5 h-5 text-[#d4d4d4]" />
-                <span>What Is Included in Your ₹25,000 Fee?</span>
+                <span>What Is Included in Your ₹20,000 Fee?</span>
               </h3>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
