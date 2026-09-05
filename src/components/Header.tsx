@@ -22,12 +22,12 @@ export default function Header({ onOpenEnrollModal }: HeaderProps) {
 
   const navLinks = [
     { name: "About", href: "#about" },
-    { name: "Diploma", href: "#diploma" },
-    { name: "Pain Relief", href: "#pain-explorer" },
+    { name: "Module 1 (Diploma)", href: "#diploma" },
+    { name: "Chronic Diseases", href: "#pain-explorer" },
+    { name: "Modules 2 & 3 (OIUCM)", href: "#higher-education" },
+    { name: "Module 4 (Reflexology)", href: "#fee" },
     { name: "Publications", href: "#publications" },
-    { name: "MD & PhD", href: "#higher-education" },
     { name: "Fees", href: "#fee" },
-    { name: "FAQs", href: "#faqs" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -51,7 +51,7 @@ export default function Header({ onOpenEnrollModal }: HeaderProps) {
             </div>
             <div>
               <span className="text-lg sm:text-xl font-black tracking-tight text-[#ffffff] flex items-center gap-2">
-                IAPC <span className="text-[#2b2b2b] bg-[#d4d4d4] font-bold text-[9px] sm:text-[10px] px-2 py-0.5 rounded-full border border-[#ffffff] uppercase">ISO Certified</span>
+                IAPC <span className="text-[#2b2b2b] bg-[#d4d4d4] font-bold text-[9px] sm:text-[10px] px-2 py-0.5 rounded-full border border-[#ffffff] uppercase">W.H.O. Recognized</span>
               </span>
               <span className="block text-[9px] sm:text-[10px] text-[#d4d4d4] font-semibold tracking-wider uppercase">
                 Institute of Acupuncture & Pain Control

@@ -46,31 +46,31 @@ export default function Footer() {
 
           {/* Col 2 Quick Links */}
           <div className="lg:col-span-3 space-y-3">
-            <h4 className="text-xs font-bold text-[#ffffff] uppercase tracking-wider">Programs & Education</h4>
+            <h4 className="text-xs font-bold text-[#ffffff] uppercase tracking-wider">All 4 Academic Modules</h4>
             <ul className="space-y-2 text-[#d4d4d4]">
               <li>
                 <a href="#diploma" className="hover:text-[#ffffff] transition">
-                  Diploma Course in Acupuncture (₹25,000)
+                  Module 1: Diploma in Acupuncture (₹25,000)
+                </a>
+              </li>
+              <li>
+                <a href="#higher-education" className="hover:text-[#ffffff] transition">
+                  Module 2: MD (Acupuncture) from OIUCM
+                </a>
+              </li>
+              <li>
+                <a href="#higher-education" className="hover:text-[#ffffff] transition">
+                  Module 3: PhD (Acupuncture) from OIUCM
+                </a>
+              </li>
+              <li>
+                <a href="#diploma" className="hover:text-[#ffffff] transition">
+                  Module 4: Diploma in Reflexology (₹5,000)
                 </a>
               </li>
               <li>
                 <a href="#pain-explorer" className="hover:text-[#ffffff] transition">
-                  Interactive Pain Relief Map
-                </a>
-              </li>
-              <li>
-                <a href="#publications" className="hover:text-[#ffffff] transition">
-                  Institutional Publications
-                </a>
-              </li>
-              <li>
-                <a href="#higher-education" className="hover:text-[#ffffff] transition">
-                  MD (Acupuncture) University Prep
-                </a>
-              </li>
-              <li>
-                <a href="#higher-education" className="hover:text-[#ffffff] transition">
-                  PhD (Acupuncture) Research Guidance
+                  Chronic Diseases (7 W.H.O. Categories)
                 </a>
               </li>
               <li>
@@ -96,7 +96,7 @@ export default function Footer() {
               <div className="p-3 rounded-xl bg-[#2b2b2b] border border-[#b3b3b3]/30 text-[11px] text-[#d4d4d4] space-y-1">
                 <div className="flex items-center gap-1 text-[#ffffff] font-bold">
                   <ShieldCheck className="w-3.5 h-3.5" />
-                  <span>ISO 9001:2015 Certified Educational Institution</span>
+                  <span>W.H.O. Recognized Standards • ISO Certified Institution</span>
                 </div>
                 <p>Authorized Clinical Practical Training Center</p>
               </div>
@@ -108,7 +108,7 @@ export default function Footer() {
         {/* Institutional Disclaimer Banner */}
         <div className="py-6 border-b border-[#b3b3b3]/20 text-[11px] text-[#b3b3b3] leading-relaxed">
           <p>
-            <strong className="text-[#d4d4d4]">Academic & Regulatory Disclaimer:</strong> Institute of Acupuncture & Pain Control (IAPC) is an institution dedicated to vocational and clinical acupuncture education. IAPC does not directly award MD or PhD degree credentials; we assist, mentor, and prepare students to qualify for MD and PhD degree programs offered by recognized Global Universities.
+            <strong className="text-[#d4d4d4]">Academic & Regulatory Disclaimer:</strong> Institute of Acupuncture & Pain Control (IAPC) is an institution dedicated to vocational and clinical acupuncture education. IAPC does not directly award MD or PhD degree credentials; we assist, mentor, and prepare students to qualify for MD and PhD degree programs awarded by OIUCM (Open International University for Complementary Medicines) and W.H.O. recognized Global Universities.
           </p>
         </div>
 

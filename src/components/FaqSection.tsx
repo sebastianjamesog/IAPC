@@ -14,16 +14,24 @@ export default function FaqSection() {
       a: "No prior medical degree is strictly required for the basic Diploma Course. Our comprehensive curriculum starts from foundational anatomy, physiology, and TCM Meridian theories to ensure every student gains confidence.",
     },
     {
+      q: "How are the academic programs structured at IAPC?",
+      a: "IAPC offers 4 comprehensive modules: Module 1 is the 6-Month Diploma in Acupuncture (₹25,000, W.H.O. recognized vocational foundation), Module 2 is MD in Acupuncture from OIUCM (clinical specialization, scalp/ear needling & anesthesia), Module 3 is PhD in Acupuncture from OIUCM (doctoral research & thesis guidance), and Module 4 is the Diploma in Reflexology (2 Days, ₹5,000).",
+    },
+    {
       q: "Does IAPC issue MD or PhD degrees directly?",
-      a: "No. As per institutional guidelines, IAPC does not issue MD or PhD degrees directly. Instead, we provide premier preparatory coaching, clinical research mentorship, thesis guidance, and academic infrastructure to help students qualify for MD and PhD degrees offered by recognized Global Partner Universities.",
+      a: "MD and PhD degrees are awarded by OIUCM (Open International University for Complementary Medicines) based on clinical examinations and submitted research theses. IAPC provides premier preparatory coaching, clinical research mentorship, thesis guidance, and academic infrastructure.",
     },
     {
-      q: "What is the fee for the Diploma Course in Acupuncture?",
-      a: "The full course fee is ₹25,000/- (All-Inclusive). This covers all classroom lectures, hands-on clinical workshops, a complete practical acupuncture starter kit (needles, moxa, cupping set), study materials, and examination certification fees. Flexible payment options are available.",
+      q: "What is covered in Module 4: Diploma in Reflexology?",
+      a: "Module 4 is a 2-day intensive workshop (Fee: ₹5,000) focusing on the importance of health for success in life, what reflexology is, detection of diseases through reflex zones, and practical treatments for asthma, allergies, diabetes, kidney diseases, cardiac conditions, and nervous system disorders.",
     },
     {
-      q: "What specific pain conditions are covered in the clinical training?",
-      a: "Our practical protocols pay special attention to high-prevalence pain conditions including Chronic Lower Back Pain, Sciatica, Osteoarthritis, Migraines & Tension Headaches, and Cervical Spondylosis.",
+      q: "What is the fee for the Module 1 Diploma Course in Acupuncture?",
+      a: "The full course fee for Module 1 is ₹25,000/- (All-Inclusive). This covers all classroom lectures, hands-on clinical workshops, a complete practical acupuncture starter kit (needles, moxa, cupping set), study materials, and W.H.O. recognized certification examination fees. Flexible payment options are available.",
+    },
+    {
+      q: "What chronic diseases and pain conditions are covered in the clinical training?",
+      a: "Our practical protocols comprehensively cover all 7 W.H.O. recognized disease categories: 1. Painful Conditions (Headache, Cervical Spondylitis, Lumbago, Knee Joint Pain), 2. Respiratory Disorders (Bronchial Asthma, Sinusitis, Bronchitis), 3. Skin Disorders (Leukoderma/Vitiligo, Eczema, Psoriasis), 4. Circulatory Disorders (Hypochromic Anemia, Rheumatic Heart Disease, Dizziness & Vertigo), 5. Genital & Urinary Disorders (Nephritis, Renal Colic, Urine Retention), 6. Mental Disorders (Depression, Addiction, Hysteria/Panic), and 7. Neurological Disorders (Bell's Palsy, Sciatica, Neuralgia, Stroke Rehab).",
     },
     {
       q: "How is the practical training conducted?",

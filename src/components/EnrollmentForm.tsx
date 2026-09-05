@@ -9,7 +9,7 @@ interface EnrollmentFormProps {
   defaultProgram?: string;
 }
 
-export default function EnrollmentForm({ isOpen, onClose, defaultProgram = "Diploma Course in Acupuncture (₹25,000)" }: EnrollmentFormProps) {
+export default function EnrollmentForm({ isOpen, onClose, defaultProgram = "Module 1: Diploma in Acupuncture (₹25,000)" }: EnrollmentFormProps) {
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -141,14 +141,17 @@ export default function EnrollmentForm({ isOpen, onClose, defaultProgram = "Dipl
                   onChange={(e) => setFormData({ ...formData, program: e.target.value })}
                   className="w-full px-4 py-2.5 rounded-xl bg-[#1e1e1e] border border-[#b3b3b3]/30 text-[#ffffff] text-xs focus:outline-none focus:border-[#ffffff]"
                 >
-                  <option value="Diploma Course in Acupuncture (₹25,000)">
-                    Diploma Course in Acupuncture (₹25,000 - Full Course)
+                  <option value="Module 1: Diploma in Acupuncture (₹25,000)">
+                    Module 1: Diploma in Acupuncture (₹25,000 - 6 Months)
                   </option>
-                  <option value="MD (Acupuncture) University Preparation">
-                    MD (Acupuncture) Global University Prep Guidance
+                  <option value="Module 2: MD in Acupuncture from OIUCM">
+                    Module 2: MD in Acupuncture from OIUCM (Clinical Specialization)
                   </option>
-                  <option value="PhD (Acupuncture) Research Preparation">
-                    PhD (Acupuncture) Research & Thesis Guidance
+                  <option value="Module 3: PhD in Acupuncture from OIUCM">
+                    Module 3: PhD in Acupuncture from OIUCM (Thesis Research Guidance)
+                  </option>
+                  <option value="Module 4: Diploma in Reflexology (₹5,000)">
+                    Module 4: Diploma in Reflexology (₹5,000 - 2 Days)
                   </option>
                   <option value="General Admission & Counseling Inquiry">
                     General Admission & Counseling Inquiry

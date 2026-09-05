@@ -67,10 +67,11 @@ export default function AboutSection() {
               <h4 className="text-xs font-bold uppercase tracking-wider text-[#ffffff]">Why Students Choose IAPC:</h4>
               <ul className="space-y-2">
                 {[
-                  "Rigorous practical needle technique workshops & clinical case studies",
-                  "Deep focus on chronic pain conditions (Back pain, Sciatica, Migraines)",
-                  "Experienced faculty blending decades of clinical practice & academic rigor",
-                  "Structured mentorship for international university higher education (MD/PhD)",
+                  "Rigorous practical needle technique workshops & hands-on clinical case studies",
+                  "Deep clinical mastery across 7 W.H.O. recognized chronic disease & pain categories",
+                  "Experienced faculty blending decades of clinical acupuncture practice & academic rigor",
+                  "Structured 3-tier curriculum: Module 1 (Diploma), Module 2 (MD), and Module 3 (PhD)",
+                  "Mentorship aligned with W.H.O. recognized global university higher education standards",
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-2 text-sm text-[#d4d4d4]">
                     <CheckCircle2 className="w-4 h-4 text-[#ffffff] shrink-0 mt-0.5" />

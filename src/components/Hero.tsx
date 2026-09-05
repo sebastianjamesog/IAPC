@@ -21,7 +21,7 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#1e1e1e] border border-[#b3b3b3]/50 text-[#d4d4d4] text-xs font-bold tracking-wide shadow-inner">
               <SparkleIcon className="w-4 h-4 text-[#ffffff] animate-spin-slow" />
-              <span>Admissions Open 2026-2027 • Limited Seats Available</span>
+              <span>W.H.O. Recognized Standards • Admissions Open 2026-2027</span>
             </div>
 
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-[#ffffff] leading-[1.15] tracking-tight">
@@ -31,7 +31,7 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
             </h1>
 
             <p className="text-base sm:text-lg text-[#d4d4d4] font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              The premier institution for authentic acupuncture education. We bridge traditional oriental medicine with contemporary healthcare, empowering health promoters and seekers with certified clinical mastery.
+              The premier institution for authentic acupuncture education and clinical pain control. Structured in 4 comprehensive modules: <strong className="text-[#ffffff]">Module 1: Diploma in Acupuncture</strong>, <strong className="text-[#ffffff]">Module 2: MD (OIUCM)</strong>, <strong className="text-[#ffffff]">Module 3: PhD (OIUCM)</strong>, and <strong className="text-[#ffffff]">Module 4: Diploma in Reflexology</strong>.
             </p>
 
             {/* Value Highlights */}
@@ -50,7 +50,7 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
               </div>
               <div className="flex items-center gap-2 text-sm text-[#ffffff] bg-[#242424] p-2.5 rounded-xl border border-[#b3b3b3]/30">
                 <CheckCircle2 className="w-4 h-4 text-[#d4d4d4] shrink-0" />
-                <span>Recognized Certification</span>
+                <span className="font-bold text-[#ffffff]">W.H.O. Recognized Certification</span>
               </div>
             </div>
 
@@ -106,8 +106,8 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
                 <div className="p-6 space-y-4 relative z-10 -mt-6 bg-[#242424] rounded-t-2xl border-t border-[#b3b3b3]/20">
                   <div className="flex items-start justify-between">
                     <div>
-                      <h3 className="text-lg font-extrabold text-[#ffffff]">Diploma in Acupuncture</h3>
-                      <p className="text-xs text-[#d4d4d4] font-medium">For Healthcare Professionals & Seekers</p>
+                      <h3 className="text-lg font-extrabold text-[#ffffff]">Module 1: Diploma in Acupuncture</h3>
+                      <p className="text-xs text-[#d4d4d4] font-medium">W.H.O. Recognized Vocational Curriculum</p>
                     </div>
                     <span className="text-sm font-black text-[#2b2b2b] bg-[#ffffff] px-2.5 py-1 rounded-lg border border-[#b3b3b3]">
                       ₹25,000
@@ -120,12 +120,12 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
                       <span className="font-semibold text-[#ffffff]">6 Months Intensive</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-[#b3b3b3]">Clinical Focus:</span>
-                      <span className="font-semibold text-[#d4d4d4]">Arthritis, Back Pain, Migraines, Sciatica</span>
+                      <span className="text-[#b3b3b3]">Clinical Scope:</span>
+                      <span className="font-semibold text-[#d4d4d4]">7 Chronic Disease Categories</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-[#b3b3b3]">Materials Included:</span>
-                      <span className="font-semibold text-[#ffffff]">Practical Needling Kit & Notes</span>
+                      <span className="text-[#b3b3b3]">Certification:</span>
+                      <span className="font-semibold text-[#ffffff]">W.H.O. Recognized Practice Certificate</span>
                     </div>
                   </div>
 
@@ -136,8 +136,8 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
                         <Award className="w-4 h-4" />
                       </div>
                       <div>
-                        <h4 className="text-xs font-bold text-[#ffffff]">MD & PhD Pathways</h4>
-                        <p className="text-[10px] text-[#d4d4d4]">Academic prep for Global Universities</p>
+                        <h4 className="text-xs font-bold text-[#ffffff]">MD & PhD from OIUCM</h4>
+                        <p className="text-[10px] text-[#d4d4d4]">Plus Module 4 Reflexology (₹5,000)</p>
                       </div>
                     </div>
                     <a href="#higher-education" className="text-xs text-[#ffffff] font-semibold hover:underline">

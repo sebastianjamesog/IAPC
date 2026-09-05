@@ -10,9 +10,9 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://iapc.com"),
-  title: "Institute of Acupuncture & Pain Control | Diploma Course, MD & PhD Guidance",
+  title: "Institute of Acupuncture & Pain Control | Module 1: Diploma, Module 2: MD & Module 3: PhD Guidance",
   description:
-    "Empowering Healing Through Ancient Wisdom & Modern Science. Master clinical acupuncture with our Diploma Course for ₹25,000/- (All-Inclusive) at Parinamam Road, Kaloor, Kochi. Call +91 9847335788.",
+    "Empowering Healing Through Ancient Wisdom & Modern Science. Master clinical acupuncture with Module 1: Diploma Course for ₹25,000/- (W.H.O. Recognized), Module 2: MD, and Module 3: PhD at Parinamam Road, Kaloor, Kochi. Call +91 9847335788.",
   keywords: [
     "Institute of Acupuncture & Pain Control",
     "IAPC Kochi",
@@ -138,7 +138,7 @@ export default function RootLayout({
             name: "Does IAPC issue MD or PhD degrees directly?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "No. IAPC does not issue MD or PhD degrees directly. We provide preparatory coaching, clinical research mentorship, and academic guidance to help students qualify for MD and PhD degrees awarded by recognized Global Universities.",
+              text: "No. IAPC does not issue MD or PhD degrees directly. We provide preparatory coaching, clinical research mentorship, and academic guidance to help students qualify for MD and PhD degrees awarded by W.H.O. recognized Global Universities.",
             },
           },
           {

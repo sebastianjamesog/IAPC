@@ -17,15 +17,20 @@ import EnrollmentForm from "@/components/EnrollmentForm";
 
 export default function Home() {
   const [enrollModalOpen, setEnrollModalOpen] = useState(false);
-  const [selectedProgram, setSelectedProgram] = useState("Diploma Course in Acupuncture (₹25,000)");
+  const [selectedProgram, setSelectedProgram] = useState("Module 1: Diploma in Acupuncture (₹25,000)");
 
   const handleOpenDiploma = () => {
-    setSelectedProgram("Diploma Course in Acupuncture (₹25,000)");
+    setSelectedProgram("Module 1: Diploma in Acupuncture (₹25,000)");
     setEnrollModalOpen(true);
   };
 
-  const handleOpenCounseling = () => {
-    setSelectedProgram("General Admission & Counseling Inquiry");
+  const handleOpenReflexology = () => {
+    setSelectedProgram("Module 4: Diploma in Reflexology (₹5,000)");
+    setEnrollModalOpen(true);
+  };
+
+  const handleOpenCounseling = (programName?: string) => {
+    setSelectedProgram(programName || "General Admission & Counseling Inquiry");
     setEnrollModalOpen(true);
   };
 
@@ -38,11 +43,17 @@ export default function Home() {
       <main className="flex-grow">
         <Hero onOpenEnrollModal={handleOpenDiploma} />
         <AboutSection />
-        <DiplomaCourseSection onOpenEnrollModal={handleOpenDiploma} />
+        <DiplomaCourseSection
+          onOpenEnrollModal={handleOpenDiploma}
+          onOpenReflexologyModal={handleOpenReflexology}
+        />
         <PainExplorer />
         <PublicationsSection onOpenEnrollModal={handleOpenDiploma} />
         <HigherEducationSection onOpenCounselingModal={handleOpenCounseling} />
-        <FeeSection onOpenEnrollModal={handleOpenDiploma} />
+        <FeeSection
+          onOpenEnrollModal={handleOpenDiploma}
+          onOpenReflexologyModal={handleOpenReflexology}
+        />
         <TestimonialsSection />
         <FaqSection />
         <ContactSection />
