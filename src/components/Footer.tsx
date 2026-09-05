@@ -37,9 +37,9 @@ export default function Footer() {
                 <Phone className="w-3.5 h-3.5 text-[#ffffff]" />
                 <span>+91 9847335788</span>
               </a>
-              <a href="mailto:admissions@iapc.com" className="hover:text-[#ffffff] flex items-center gap-1.5">
+              <a href="mailto:iapcoo123@gmail.com" className="hover:text-[#ffffff] flex items-center gap-1.5 font-semibold">
                 <Mail className="w-3.5 h-3.5 text-[#d4d4d4]" />
-                <span>admissions@iapc.com</span>
+                <span>iapcoo123@gmail.com</span>
               </a>
             </div>
           </div>
@@ -66,6 +66,11 @@ export default function Footer() {
               <li>
                 <a href="#diploma" className="hover:text-[#ffffff] transition">
                   Module 4: Diploma in Reflexology (₹5,000)
+                </a>
+              </li>
+              <li>
+                <a href="#testimonials" className="hover:text-[#ffffff] transition">
+                  Student Testimonials
                 </a>
               </li>
               <li>

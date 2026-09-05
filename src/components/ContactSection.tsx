@@ -57,8 +57,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <span className="text-xs text-[#b3b3b3] block">Official Email Address:</span>
-                    <a href="mailto:admissions@iapc.com" className="text-sm font-bold text-[#ffffff] hover:text-[#d4d4d4] transition">
-                      admissions@iapc.com / info@iapc.com
+                    <a href="mailto:iapcoo123@gmail.com" className="text-sm font-bold text-[#ffffff] hover:text-[#d4d4d4] transition">
+                      iapcoo123@gmail.com
                     </a>
                   </div>
                 </div>
