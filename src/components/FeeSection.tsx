@@ -11,7 +11,7 @@ interface FeeSectionProps {
 export default function FeeSection({ onOpenEnrollModal, onOpenReflexologyModal }: FeeSectionProps) {
   const diplomaInclusions = [
     "Full 6-Months Intensive Lecture & Workshop Tuition",
-    "Complete Practical Acupuncture Kit (Needles, Moxa, Cupping Set)",
+    "Complete Practical Acupuncture Kit",
     "Comprehensive Printed Course Study Materials & Charts",
     "Clinical Case Study Supervision & Diagnostic Practice",
     "Final W.H.O. Recognized Certification Examination Fees",
@@ -48,7 +48,7 @@ export default function FeeSection({ onOpenEnrollModal, onOpenReflexologyModal }
         {/* Dual Program Pricing Grid */}
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-12 gap-8 max-w-6xl mx-auto items-stretch">
           
-          {/* Card 1: Module 1 Diploma in Acupuncture (₹25,000) */}
+          {/* Card 1: Module 1 Diploma in Acupuncture (₹20,000) */}
           <div className="lg:col-span-7 rounded-3xl p-1 bg-gradient-to-r from-[#ffffff]/40 via-[#b3b3b3]/40 to-[#2b2b2b] shadow-2xl flex flex-col">
             <div className="bg-[#242424] rounded-[22px] p-6 sm:p-8 flex flex-col justify-between h-full border border-[#b3b3b3]/30 space-y-6">
               
@@ -65,7 +65,7 @@ export default function FeeSection({ onOpenEnrollModal, onOpenReflexologyModal }
                 <div>
                   <h3 className="text-2xl font-black text-[#ffffff]">Diploma in Acupuncture</h3>
                   <div className="flex items-baseline gap-2 mt-2">
-                    <span className="text-4xl sm:text-5xl font-black text-[#ffffff]">₹25,000</span>
+                    <span className="text-4xl sm:text-5xl font-black text-[#ffffff]">₹20,000</span>
                     <span className="text-[#b3b3b3] text-sm font-semibold">/ Full Course</span>
                   </div>
                   <p className="text-xs text-[#d4d4d4] font-medium mt-1">100% All-Inclusive • Includes Starter Needling Kit • Zero Hidden Fees</p>
@@ -74,7 +74,7 @@ export default function FeeSection({ onOpenEnrollModal, onOpenReflexologyModal }
                 <div className="pt-4 border-t border-[#b3b3b3]/20 space-y-3">
                   <h4 className="text-xs font-bold text-[#ffffff] uppercase tracking-wider flex items-center gap-2">
                     <ShieldCheck className="w-4 h-4 text-[#d4d4d4]" />
-                    <span>What is Included in the ₹25,000 Fee:</span>
+                    <span>What is Included in the ₹20,000 Fee:</span>
                   </h4>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                     {diplomaInclusions.map((item, idx) => (
@@ -93,7 +93,7 @@ export default function FeeSection({ onOpenEnrollModal, onOpenReflexologyModal }
                   className="w-full py-4 rounded-xl bg-gradient-to-r from-[#ffffff] via-[#d4d4d4] to-[#b3b3b3] text-[#2b2b2b] font-extrabold text-sm shadow-lg hover:shadow-white/20 transition flex items-center justify-center gap-2"
                 >
                   <GraduationCap className="w-5 h-5 text-[#2b2b2b]" />
-                  <span>Enroll in Module 1 (₹25,000)</span>
+                  <span>Enroll in Module 1 (₹20,000)</span>
                 </button>
                 <p className="text-[11px] text-center text-[#b3b3b3]">Easy installment payment options available upon request.</p>
               </div>

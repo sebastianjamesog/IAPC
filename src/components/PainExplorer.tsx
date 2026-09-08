@@ -29,16 +29,16 @@ export default function PainExplorer() {
       category: "Pain Management Focus",
       title: "Painful Conditions",
       conditionsList: [
-        "Headache (Migraine & Tension)",
-        "Cervical Spondylitis (Neck & Shoulder)",
-        "Lumbago (Lower Back Pain)",
-        "Knee Joint Pain (Osteoarthritis)",
+        "Headache",
+        "Cervical Spondylitis",
+        "Lumbago",
+        "Knee Joint Pain",
       ],
       image: "/images/chronic_pain.jpg",
       imageAlt: "Clinical acupuncture treatment for joint and cervical chronic pain",
       imageCaption: "Clinical Knee Joint & Cervical Spine Needling Protocol",
       symptoms: "Throbbing cranial pressure, stiff neck, chronic lumbar spasm, restricted joint flexion & weight-bearing pain",
-      primaryPoints: ["GB20 (Fengchi)", "LI4 (Hegu)", "BL23 (Shenshu)", "BL40 (Weizhong)", "ST35 (Dubi)", "GB34 (Yanglingquan)"],
+      primaryPoints: ["GB20", "LI4", "BL23", "BL40", "ST35", "GB34"],
       tcmPhilosophy: "Resolves Qi & Blood Stagnation, expels Wind-Cold-Damp Bi obstruction from spinal and joint meridians, restoring free flow.",
       modernMechanism: "Stimulates beta-endorphins & dynorphins release, downregulates substance P, dramatically reduces joint cytokines & inflammatory swelling.",
       whoRecognition: "W.H.O. Recognized: Primary recommendation for chronic back pain, cervical spondylitis, headache, and osteoarthritis.",
@@ -51,7 +51,7 @@ export default function PainExplorer() {
       title: "Respiratory Disorders",
       conditionsList: [
         "Bronchial Asthma",
-        "Sinusitis (Synasaties)",
+        "Sinusitis",
         "Bronchitis",
         "Asthma & Allergic Rhinitis",
       ],
@@ -59,7 +59,7 @@ export default function PainExplorer() {
       imageAlt: "Acupuncture treatment for respiratory airway relief and lung meridians",
       imageCaption: "Thoracic & Lung Meridian Point Stimulation",
       symptoms: "Wheezing, chronic productive cough, facial sinus pressure, shortness of breath, nocturnal dyspnea",
-      primaryPoints: ["LU5 (Chize)", "LU7 (Lieque)", "BL13 (Feishu)", "Dingchuan (Extra)", "LI20 (Yingxiang)", "RN17 (Danzhong)"],
+      primaryPoints: ["LU5", "LU7", "BL13", "Dingchuan", "LI20", "RN17"],
       tcmPhilosophy: "Clears Wind-Heat and Phlegm-Damp from the respiratory channels; restores the descending and dispersing function of Lung Qi.",
       modernMechanism: "Inhibits bronchospasm, normalizes airway autonomic tone, reduces IgE and histamine-mediated mucosal inflammation in bronchial tissues.",
       whoRecognition: "W.H.O. Recognized: Effective for bronchial asthma, acute/chronic sinusitis, and recurrent bronchitis.",
@@ -71,15 +71,15 @@ export default function PainExplorer() {
       category: "Dermatological Scope",
       title: "Skin Disorders",
       conditionsList: [
-        "Leukoderma (Lookodarma / Vitiligo)",
-        "Eczema (Exima)",
-        "Psoriasis (Soriasis)",
+        "Leukoderma",
+        "Eczema",
+        "Psoriasis",
       ],
       image: "/images/chronic_skin.jpg",
       imageAlt: "Clinical dermatological acupuncture and cupping therapy on patient back",
       imageCaption: "Blood-Clearing Meridian & Dermal Needling Therapy",
       symptoms: "Depigmented cutaneous patches, erythematous pruritic rashes, scaly silvery plaques, epidermal irritation",
-      primaryPoints: ["SP10 (Xuehai - Sea of Blood)", "SP6 (Sanyinjiao)", "LI11 (Quchi)", "BL17 (Geshu)", "GV14 (Dazhui)", "Ashi Points"],
+      primaryPoints: ["SP10", "SP6", "LI11", "BL17", "GV14", "Ashi Points"],
       tcmPhilosophy: "Cools Blood Heat, dispels Toxic Wind-Dampness from skin pores, and nourishes defensive Wei Qi to foster natural tissue repigmentation.",
       modernMechanism: "Regulates cutaneous T-lymphocytes, enhances microvascular perfusion to dermis, stimulates melanocyte migration, reduces chronic skin flaking.",
       whoRecognition: "W.H.O. Recognized: Documented therapeutic benefit in stubborn inflammatory and immune-mediated dermatological conditions.",
@@ -91,15 +91,15 @@ export default function PainExplorer() {
       category: "Cardiovascular Scope",
       title: "Circulatory Disorders",
       conditionsList: [
-        "Hypochromic Anemia (Hypopheric)",
+        "Hypochromic Anemia",
         "Rheumatic Heart Disease",
-        "Dizziness & Vertigo (Dissines)",
+        "Dizziness & Vertigo",
       ],
       image: "/images/chronic_circulatory.jpg",
       imageAlt: "Traditional pulse diagnosis and circulatory meridian acupuncture session",
       imageCaption: "Radial Pulse Diagnosis & Micro-Vascular Regulation",
       symptoms: "Chronic fatigue, orthostatic dizziness, vestibular vertigo, peripheral pallor, cardiac palpitations, low vitality",
-      primaryPoints: ["PC6 (Neiguan)", "HT7 (Shenmen)", "ST36 (Zusanli)", "SP6 (Sanyinjiao)", "BL15 (Xinshu)", "BL20 (Pishu)"],
+      primaryPoints: ["PC6", "HT7", "ST36", "SP6", "BL15", "BL20"],
       tcmPhilosophy: "Tonifies Spleen Qi to generate Blood, harmonizes Heart Shen, and pacifies internal Liver Wind causing postural and vestibular vertigo.",
       modernMechanism: "Improves peripheral microcirculation, regulates coronary artery blood flow, stabilizes vestibular blood flow to the inner ear, enhances erythropoietin efficiency.",
       whoRecognition: "W.H.O. Recognized: Proven clinical efficacy for dizziness, vertigo (Ménière's), and circulatory neuro-vascular regulation.",
@@ -119,7 +119,7 @@ export default function PainExplorer() {
       imageAlt: "Lower back kidney meridian acupuncture for renal and urinary wellness",
       imageCaption: "BL23 Renal & Bladder Pathway Decompression",
       symptoms: "Sharp spasmodic flank pain, painful urination, bladder distension, fluid retention, impaired micturition",
-      primaryPoints: ["BL23 (Shenshu)", "BL28 (Pangguangshu)", "CV3 (Zhongji)", "CV4 (Guanyuan)", "SP9 (Yinlingquan)", "KI3 (Taixi)"],
+      primaryPoints: ["BL23", "BL28", "CV3", "CV4", "SP9", "KI3"],
       tcmPhilosophy: "Fortifies Kidney Yang, clears Damp-Heat obstruction from the Bladder meridian, and unblocks the physiological water gates.",
       modernMechanism: "Relieves smooth muscle spasm of the ureter and bladder neck, stimulates detrusor contraction reflex, promotes renal micro-filtration.",
       whoRecognition: "W.H.O. Recognized: Highly documented for acute renal colic spasm relief and neurogenic bladder/urine retention.",
@@ -133,13 +133,13 @@ export default function PainExplorer() {
       conditionsList: [
         "Depression",
         "Drug & Alcohol Addiction",
-        "Hysteria (Acute Anxiety & Panic)",
+        "Hysteria",
       ],
       image: "/images/chronic_mental.jpg",
       imageAlt: "Calming cranial acupuncture for mental relief and nervous system balance",
       imageCaption: "Cranial Shen Harmony & NADA Addiction Protocol",
       symptoms: "Chronic low mood, addictive craving spikes, psychomotor agitation, emotional instability, sleep disturbances",
-      primaryPoints: ["GV20 (Baihui)", "Yintang (Extra - Hall of Impression)", "Ear Shenmen", "Sympathetic Ear Point", "HT7 (Shenmen)", "LV3 (Taichong)"],
+      primaryPoints: ["GV20", "Yintang", "Ear Shenmen", "Sympathetic Ear Point", "HT7", "LV3"],
       tcmPhilosophy: "Calms the disturbed Shen (Spiritual Mind), pacifies Liver Fire uprising, and clears mental stagnation to bring tranquility.",
       modernMechanism: "Triggers release of serotonin, dopamine, and GABA; regulates the hypothalamic-pituitary-adrenal (HPA) axis, suppresses substance withdrawal craving.",
       whoRecognition: "W.H.O. Recognized: Clinical evidence supporting acupuncture in depression, psychosomatic anxiety, and addiction recovery protocols.",
@@ -151,16 +151,16 @@ export default function PainExplorer() {
       category: "Neurology & Rehabilitation",
       title: "Neurological Disorders",
       conditionsList: [
-        "Facial Paralysis (Bell's Palsy)",
+        "Facial Paralysis",
         "Sciatica & Peripheral Neuropathy",
         "Trigeminal Neuralgia",
-        "Post-Stroke Rehabilitation (Hemiplegia)",
+        "Post-Stroke Rehabilitation",
       ],
       image: "/images/chronic_neurological.jpg",
       imageAlt: "Clinical cranial and facial nerve acupuncture rehabilitation",
       imageCaption: "Precision Facial & Motor Nerve Neurological Needling",
       symptoms: "Facial muscle drooping, loss of smile symmetry, sharp burning nerve pain, extremity weakness, post-stroke motor impairment",
-      primaryPoints: ["ST4 (Dicang)", "ST6 (Jiache)", "GB14 (Yangbai)", "LI4 (Hegu)", "GB30 (Hantiao)", "DU20 (Baihui)", "Scalp Motor Line"],
+      primaryPoints: ["ST4", "ST6", "GB14", "LI4", "GB30", "DU20", "Scalp Motor Line"],
       tcmPhilosophy: "Dispels External Wind-Phlegm obstructing the cranial channels, revives stagnant Qi along sinew meridians, and restores muscular movement.",
       modernMechanism: "Enhances facial and cranial nerve microcirculation, prevents nerve axonal degeneration, accelerates neuromuscular re-innervation and motor cortical neuroplasticity.",
       whoRecognition: "W.H.O. Recognized: Foremost official indication for Bell's palsy, facial paralysis recovery, and post-stroke rehabilitation.",
@@ -216,13 +216,11 @@ export default function PainExplorer() {
         </div>
 
         {/* Selected Category Feature Display Box */}
-        <div className="mt-10 p-6 sm:p-9 rounded-3xl bg-[#242424] border border-[#b3b3b3]/40 shadow-2xl grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div className="mt-10 p-6 sm:p-9 rounded-3xl bg-[#242424] border border-[#b3b3b3]/40 shadow-2xl grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
           
-          {/* Left Column: Photo Showcase with Clinical Details */}
-          <div className="lg:col-span-6 space-y-6">
-            
-            {/* Clinical Photo Container */}
-            <div className="relative h-64 sm:h-80 w-full rounded-2xl overflow-hidden border border-[#b3b3b3]/40 shadow-xl group">
+          {/* Left Column: Full-Height Image Showcase */}
+          <div className="lg:col-span-5 flex flex-col">
+            <div className="relative h-72 sm:h-96 lg:h-full min-h-[340px] w-full rounded-2xl overflow-hidden border border-[#b3b3b3]/40 shadow-xl group">
               <Image
                 src={selectedCategory.image}
                 alt={selectedCategory.imageAlt}
@@ -248,6 +246,20 @@ export default function PainExplorer() {
                 <span className="text-[10px] text-[#d4d4d4] font-medium uppercase tracking-wide">Real Clinical Photo</span>
               </div>
             </div>
+          </div>
+
+          {/* Right Column: Category Details, Disorders List & Endorsement */}
+          <div className="lg:col-span-7 space-y-5 flex flex-col justify-between">
+            
+            <div>
+              <span className="text-xs font-bold uppercase tracking-wider text-[#2b2b2b] bg-[#d4d4d4] px-3 py-1 rounded-full border border-[#ffffff]">
+                Category {selectedCategory.number} of 7
+              </span>
+              <h3 className="text-2xl sm:text-3xl font-black text-[#ffffff] mt-3">{selectedCategory.title}</h3>
+              <p className="text-xs sm:text-sm text-[#b3b3b3] mt-1.5 leading-relaxed">
+                <strong className="text-[#d4d4d4]">Clinical Manifestations & Symptoms:</strong> {selectedCategory.symptoms}
+              </p>
+            </div>
 
             {/* Disorders List Pill Section */}
             <div className="p-4 sm:p-5 rounded-2xl bg-[#1e1e1e] border border-[#b3b3b3]/30 space-y-3">
@@ -268,68 +280,13 @@ export default function PainExplorer() {
               </div>
             </div>
 
-            {/* W.H.O. Recognized Badge */}
-            <div className="flex items-start gap-3 p-4 rounded-2xl bg-[#1e1e1e] border border-[#b3b3b3]/50 text-xs text-[#d4d4d4]">
+            {/* W.H.O. Recognized Endorsement Badge */}
+            <div className="flex items-start gap-3 p-4 sm:p-5 rounded-2xl bg-[#1e1e1e] border border-[#b3b3b3]/50 text-xs text-[#d4d4d4]">
               <Shield className="w-5 h-5 text-[#ffffff] shrink-0 mt-0.5" />
               <div>
                 <strong className="text-[#ffffff] block text-xs uppercase tracking-wide">Official Clinical Endorsement:</strong>
                 <p className="mt-0.5 leading-relaxed">{selectedCategory.whoRecognition}</p>
               </div>
-            </div>
-
-          </div>
-
-          {/* Right Column: Symptoms, Meridian Points, TCM Philosophy & Modern Mechanisms */}
-          <div className="lg:col-span-6 space-y-5">
-            
-            <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-[#2b2b2b] bg-[#d4d4d4] px-3 py-1 rounded-full border border-[#ffffff]">
-                Category {selectedCategory.number} of 7
-              </span>
-              <h3 className="text-2xl sm:text-3xl font-black text-[#ffffff] mt-3">{selectedCategory.title}</h3>
-              <p className="text-xs sm:text-sm text-[#b3b3b3] mt-1.5 leading-relaxed">
-                <strong className="text-[#d4d4d4]">Clinical Manifestations & Symptoms:</strong> {selectedCategory.symptoms}
-              </p>
-            </div>
-
-            {/* Primary Meridian Points */}
-            <div className="p-4 sm:p-5 rounded-2xl bg-[#1e1e1e] border border-[#b3b3b3]/30 space-y-3">
-              <h4 className="text-xs font-bold text-[#ffffff] uppercase tracking-wider flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-[#d4d4d4]" />
-                <span>Primary Meridian Acupoints Taught:</span>
-              </h4>
-              <div className="flex flex-wrap gap-2">
-                {selectedCategory.primaryPoints.map((point, idx) => (
-                  <span
-                    key={idx}
-                    className="px-3 py-1.5 rounded-lg bg-[#2b2b2b] border border-[#b3b3b3]/40 text-[#ffffff] text-xs font-semibold"
-                  >
-                    {point}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            {/* Ancient TCM Energy Philosophy */}
-            <div className="p-5 rounded-2xl bg-[#1e1e1e] border border-[#b3b3b3]/30 space-y-2">
-              <div className="flex items-center gap-2 text-[#ffffff] text-xs font-bold uppercase tracking-wider">
-                <span className="w-2.5 h-2.5 rounded-full bg-[#ffffff]" />
-                <span>Ancient TCM Energy & Meridian Philosophy</span>
-              </div>
-              <p className="text-xs sm:text-sm text-[#d4d4d4] leading-relaxed font-medium">
-                "{selectedCategory.tcmPhilosophy}"
-              </p>
-            </div>
-
-            {/* Modern Medical & Neuro-Anatomical Action */}
-            <div className="p-5 rounded-2xl bg-[#1e1e1e] border border-[#b3b3b3]/30 space-y-2">
-              <div className="flex items-center gap-2 text-[#d4d4d4] text-xs font-bold uppercase tracking-wider">
-                <span className="w-2.5 h-2.5 rounded-full bg-[#d4d4d4]" />
-                <span>Modern Medical & Neuro-Anatomical Mechanism</span>
-              </div>
-              <p className="text-xs sm:text-sm text-[#d4d4d4] leading-relaxed font-medium">
-                "{selectedCategory.modernMechanism}"
-              </p>
             </div>
 
           </div>

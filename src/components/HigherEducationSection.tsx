@@ -89,10 +89,10 @@ export default function HigherEducationSection({ onOpenCounselingModal }: Higher
                 <ul className="space-y-2">
                   {[
                     "Revision of 14 Acupuncture Meridians & Points",
-                    "Ear Acupuncture (Auriculotherapy & Micro-system Diagnostics)",
-                    "Scalp Acupuncture (Cerebral motor & sensory zone stimulation)",
-                    "Acupuncture Anesthesia (Analgesia for minor/major surgical procedures)",
-                    "Allied Therapies (Electro-stimulation, moxa, cupping & holistic protocols)",
+                    "Ear Acupuncture",
+                    "Scalp Acupuncture",
+                    "Acupuncture Anesthesia",
+                    "Allied Therapies",
                   ].map((item, i) => (
                     <li key={i} className="flex items-center gap-2 text-xs text-[#d4d4d4]">
                       <CheckCircle2 className="w-4 h-4 text-[#ffffff] shrink-0" />

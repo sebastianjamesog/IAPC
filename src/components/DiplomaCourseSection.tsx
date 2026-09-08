@@ -41,11 +41,11 @@ export default function DiplomaCourseSection({ onOpenEnrollModal, onOpenReflexol
       title: "Theories of Acupuncture",
       subtitle: "Ancient TCM Principles & Modern Neurophysiology",
       topics: [
-        "Theory of Yin and Yang (Dynamic equilibrium in health & pathology)",
-        "Theory of Five Elements (Wood, Fire, Earth, Metal, Water correspondences)",
-        "Mother and Son Theory (Sheng & Ke nourishing and controlling cycles)",
-        "Endorphin Release Theory (Neurochemical modulation of endogenous opioids)",
-        "Gate Control Theory of Pain (Spinal dorsal horn pain gating mechanism)",
+        "Theory of Yin and Yang",
+        "Theory of Five Elements",
+        "Mother and Son Theory",
+        "Endorphin Release Theory",
+        "Gate Control Theory of Pain",
       ],
     },
     {
@@ -53,12 +53,12 @@ export default function DiplomaCourseSection({ onOpenEnrollModal, onOpenReflexol
       title: "Materials of Acupuncture",
       subtitle: "Clinical Instrumentation & Anatomical Precision",
       topics: [
-        "Acupuncture Needles (Gauges, lengths, metal types & sterile insertion)",
-        "Acupuncture Stimulator (Electro-acupuncture frequency & pulse parameters)",
-        "7-Star Needles (Plum blossom dermal tapping technique for blood stasis)",
-        "Moxa (Direct and indirect Artemisia moxibustion warming therapy)",
-        "Ear Acupuncture Needles (Auricular press needles & intradermal tacks)",
-        "Anatomy of Acupuncture (Safe needle angles, organ depth & regional landmarks)",
+        "Acupuncture Needles",
+        "Acupuncture Stimulator",
+        "7-Star Needles",
+        "Moxa",
+        "Ear Acupuncture Needles",
+        "Anatomy of Acupuncture",
       ],
     },
     {
@@ -66,14 +66,14 @@ export default function DiplomaCourseSection({ onOpenEnrollModal, onOpenReflexol
       title: "Effects of Acupuncture, Deqi & Point Classification",
       subtitle: "14 Meridians, 361 Points & Functional Categories",
       topics: [
-        "14 Meridians and 361 Standard Acupuncture Points (Pathways & localization)",
-        "Elicitation of Deqi (Needling sensation arrival, soreness, numbness & fullness)",
-        "Ah-Shi Points (Tender trigger points) & Alarm Points",
-        "Front-Mu and Back-Shu Points (Organ diagnostic and therapeutic association)",
+        "14 Meridians and 361 Standard Acupuncture Points",
+        "Elicitation of Deqi",
+        "Ah-Shi Points & Alarm Points",
+        "Front-Mu and Back-Shu Points",
         "Dangerous Points & Critical Anatomical Precautions",
-        "Analgesic & Sedation Points (Pain alleviation and neural pacification)",
+        "Analgesic & Sedation Points",
         "Homeostatic Points & Immunity Enhancing Points",
-        "Motor Points (Neuromuscular junction activation) & Psychological Points",
+        "Motor Points & Psychological Points",
       ],
     },
     {
@@ -81,14 +81,14 @@ export default function DiplomaCourseSection({ onOpenEnrollModal, onOpenReflexol
       title: "Treatment of Various Diseases by Acupuncture",
       subtitle: "Comprehensive Clinical Disease Formulations",
       topics: [
-        "Neurological Diseases (Stroke paralysis, Bell's palsy, neuralgia, neuropathy)",
-        "Respiratory Diseases (Bronchial asthma, sinusitis, bronchitis, allergic rhinitis)",
-        "Cardio-Vascular Diseases (Hypertension, palpitations, circulatory impairment)",
-        "Disorders of Gastro-Intestinal System (Gastritis, IBS, acid reflux, constipation)",
-        "Genito-Urinary Disorders (Nephritis, renal colic, urinary retention & incontinence)",
-        "Skin Disorders (Leukoderma/Vitiligo, eczema, psoriasis, pruritus)",
-        "Psychiatric Disorders (Depression, anxiety, panic/hysteria, addiction)",
-        "Acute Disorders and Emergencies (Acute syncope, sprains, colic & trauma relief)",
+        "Neurological Diseases",
+        "Respiratory Diseases",
+        "Cardio-Vascular Diseases",
+        "Disorders of Gastro-Intestinal System",
+        "Genito-Urinary Disorders",
+        "Skin Disorders",
+        "Psychiatric Disorders",
+        "Acute Disorders and Emergencies",
       ],
     },
   ];
@@ -181,7 +181,7 @@ export default function DiplomaCourseSection({ onOpenEnrollModal, onOpenReflexol
                   <ShieldCheck className="w-5 h-5 text-[#d4d4d4] shrink-0 mt-0.5" />
                   <div>
                     <span className="text-xs text-[#b3b3b3] block">Tuition & Kit</span>
-                    <span className="text-sm font-bold text-[#ffffff]">₹25,000 (All-Inclusive with Needling Kit)</span>
+                    <span className="text-sm font-bold text-[#ffffff]">₹20,000 (All-Inclusive with Needling Kit)</span>
                   </div>
                 </div>
               </div>
@@ -212,7 +212,7 @@ export default function DiplomaCourseSection({ onOpenEnrollModal, onOpenReflexol
               onClick={onOpenEnrollModal}
               className="w-full mt-6 py-3.5 rounded-xl bg-gradient-to-r from-[#ffffff] via-[#d4d4d4] to-[#b3b3b3] text-[#2b2b2b] font-extrabold text-sm shadow-lg hover:shadow-white/20 transition"
             >
-              Enroll in Module 1 (₹25,000 Full Fee)
+              Enroll in Module 1 (₹20,000 Full Fee)
             </button>
           </div>
 
@@ -328,7 +328,7 @@ export default function DiplomaCourseSection({ onOpenEnrollModal, onOpenReflexol
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-[#d4d4d4]">
                   {[
                     "Importance of Health for Success in Life",
-                    "What is Reflexology? (Principles & Zones)",
+                    "What is Reflexology?",
                     "Detection of Diseases by Reflexology",
                     "Treatment of Asthma & Respiratory Allergies",
                     "Treatment of Diabetes & Endocrine Imbalance",

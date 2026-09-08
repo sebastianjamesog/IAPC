@@ -50,7 +50,7 @@ export default function Footer() {
             <ul className="space-y-2 text-[#d4d4d4]">
               <li>
                 <a href="#diploma" className="hover:text-[#ffffff] transition">
-                  Module 1: Diploma in Acupuncture (₹25,000)
+                  Module 1: Diploma in Acupuncture (₹20,000)
                 </a>
               </li>
               <li>

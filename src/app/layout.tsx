@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://iapc.com"),
   title: "Institute of Acupuncture & Pain Control | Module 1: Diploma, Module 2: MD & Module 3: PhD Guidance",
   description:
-    "Empowering Healing Through Ancient Wisdom & Modern Science. Master clinical acupuncture with Module 1: Diploma Course for ₹25,000/- (W.H.O. Recognized), Module 2: MD, and Module 3: PhD at Parinamam Road, Kaloor, Kochi. Call +91 9847335788.",
+    "Empowering Healing Through Ancient Wisdom & Modern Science. Master clinical acupuncture with Module 1: Diploma Course for ₹20,000/- (W.H.O. Recognized), Module 2: MD, and Module 3: PhD at Parinamam Road, Kaloor, Kochi. Call +91 9847335788.",
   keywords: [
     "Institute of Acupuncture & Pain Control",
     "IAPC Kochi",

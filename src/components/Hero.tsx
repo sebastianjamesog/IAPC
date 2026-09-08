@@ -137,7 +137,6 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
                       </div>
                       <div>
                         <h4 className="text-xs font-bold text-[#ffffff]">MD & PhD from OIUCM</h4>
-                        <p className="text-[10px] text-[#d4d4d4]">Plus Module 4 Reflexology (₹5,000)</p>
                       </div>
                     </div>
                     <a href="#higher-education" className="text-xs text-[#ffffff] font-semibold hover:underline">

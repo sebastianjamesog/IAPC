@@ -17,10 +17,10 @@ import EnrollmentForm from "@/components/EnrollmentForm";
 
 export default function Home() {
   const [enrollModalOpen, setEnrollModalOpen] = useState(false);
-  const [selectedProgram, setSelectedProgram] = useState("Module 1: Diploma in Acupuncture (₹25,000)");
+  const [selectedProgram, setSelectedProgram] = useState("Module 1: Diploma in Acupuncture (₹20,000)");
 
   const handleOpenDiploma = () => {
-    setSelectedProgram("Module 1: Diploma in Acupuncture (₹25,000)");
+    setSelectedProgram("Module 1: Diploma in Acupuncture (₹20,000)");
     setEnrollModalOpen(true);
   };
 

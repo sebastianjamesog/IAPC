@@ -70,7 +70,7 @@ export default function AboutSection() {
                   "Rigorous practical needle technique workshops & hands-on clinical case studies",
                   "Deep clinical mastery across 7 W.H.O. recognized chronic disease & pain categories",
                   "Experienced faculty blending decades of clinical acupuncture practice & academic rigor",
-                  "Structured 3-tier curriculum: Module 1 (Diploma), Module 2 (MD), and Module 3 (PhD)",
+                  "Structured 3-tier curriculum: Module 1, Module 2, and Module 3",
                   "Mentorship aligned with W.H.O. recognized global university higher education standards",
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-2 text-sm text-[#d4d4d4]">
