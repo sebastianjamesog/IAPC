@@ -10,7 +10,7 @@ interface FeeSectionProps {
 
 export default function FeeSection({ onOpenEnrollModal, onOpenReflexologyModal }: FeeSectionProps) {
   const diplomaInclusions = [
-    "Full 6-Months Intensive Lecture & Workshop Tuition",
+    "Full Intensive Lecture & Workshop Tuition",
     "Complete Practical Acupuncture Kit",
     "Comprehensive Printed Course Study Materials & Charts",
     "Clinical Case Study Supervision & Diagnostic Practice",
@@ -19,7 +19,7 @@ export default function FeeSection({ onOpenEnrollModal, onOpenReflexologyModal }
   ];
 
   const reflexologyInclusions = [
-    "2-Day Intensive Hands-on Workshop Tuition",
+    "Intensive Hands-on Workshop Tuition",
     "Anatomical Foot & Hand Reflexology Charts",
     "Live Detection of Disease Protocols on Reflex Zones",
     "Treatment Procedures for Asthma, Diabetes, Cardiac & Kidney",
@@ -57,9 +57,7 @@ export default function FeeSection({ onOpenEnrollModal, onOpenReflexologyModal }
                   <span className="text-xs font-bold uppercase tracking-wider text-[#2b2b2b] bg-[#d4d4d4] px-3 py-1 rounded-full border border-[#ffffff]">
                     Module 1 Flagship
                   </span>
-                  <span className="text-xs font-semibold text-[#ffffff] bg-[#1e1e1e] px-3 py-1 rounded-full border border-[#b3b3b3]/30">
-                    6 Months Intensive
-                  </span>
+
                 </div>
 
                 <div>

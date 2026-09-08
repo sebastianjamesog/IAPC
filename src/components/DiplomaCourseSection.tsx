@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { BookOpen, Award, Clock, Users, Sparkles, ChevronRight, Layers, CheckCircle2, ShieldCheck, HeartPulse, ArrowRight } from "lucide-react";
+import { BookOpen, Award, Users, Sparkles, ChevronRight, Layers, CheckCircle2, ShieldCheck, HeartPulse, ArrowRight } from "lucide-react";
 
 interface DiplomaCourseSectionProps {
   onOpenEnrollModal?: () => void;
@@ -161,13 +161,7 @@ export default function DiplomaCourseSection({ onOpenEnrollModal, onOpenReflexol
               </span>
 
               <div className="mt-6 space-y-4">
-                <div className="flex items-center gap-3">
-                  <Clock className="w-5 h-5 text-[#ffffff] shrink-0" />
-                  <div>
-                    <span className="text-xs text-[#b3b3b3] block">Duration & Format</span>
-                    <span className="text-sm font-bold text-[#ffffff]">6 Months (Lectures + Hands-on Workshops)</span>
-                  </div>
-                </div>
+
 
                 <div className="flex items-start gap-3">
                   <Award className="w-5 h-5 text-[#ffffff] shrink-0 mt-0.5" />
@@ -303,9 +297,7 @@ export default function DiplomaCourseSection({ onOpenEnrollModal, onOpenReflexol
                   <span className="text-xs font-bold uppercase tracking-wider text-[#2b2b2b] bg-[#d4d4d4] px-3 py-1 rounded-full border border-[#ffffff]">
                     Specialized Certification
                   </span>
-                  <span className="text-xs font-bold text-[#ffffff] bg-[#1e1e1e] px-3 py-1 rounded-full border border-[#b3b3b3]/40">
-                    Duration: 2 Days
-                  </span>
+
                   <span className="text-xs font-black text-[#2b2b2b] bg-[#ffffff] px-3 py-1 rounded-full">
                     Fee: ₹5,000/-
                   </span>

@@ -15,7 +15,7 @@ export default function FaqSection() {
     },
     {
       q: "How are the academic programs structured at IAPC?",
-      a: "IAPC offers 4 comprehensive modules: Module 1 is the 6-Month Diploma in Acupuncture (₹20,000, W.H.O. recognized vocational foundation), Module 2 is MD in Acupuncture from OIUCM (clinical specialization, scalp/ear needling & anesthesia), Module 3 is PhD in Acupuncture from OIUCM (doctoral research & thesis guidance), and Module 4 is the Diploma in Reflexology (2 Days, ₹5,000).",
+      a: "IAPC offers 4 comprehensive modules: Module 1 is the Diploma in Acupuncture (₹20,000, W.H.O. recognized vocational foundation), Module 2 is MD in Acupuncture from OIUCM (clinical specialization, scalp/ear needling & anesthesia), Module 3 is PhD in Acupuncture from OIUCM (doctoral research & thesis guidance), and Module 4 is the Diploma in Reflexology (₹5,000).",
     },
     {
       q: "Does IAPC issue MD or PhD degrees directly?",
@@ -23,7 +23,7 @@ export default function FaqSection() {
     },
     {
       q: "What is covered in Module 4: Diploma in Reflexology?",
-      a: "Module 4 is a 2-day intensive workshop (Fee: ₹5,000) focusing on the importance of health for success in life, what reflexology is, detection of diseases through reflex zones, and practical treatments for asthma, allergies, diabetes, kidney diseases, cardiac conditions, and nervous system disorders.",
+      a: "Module 4 is an intensive workshop (Fee: ₹5,000) focusing on the importance of health for success in life, what reflexology is, detection of diseases through reflex zones, and practical treatments for asthma, allergies, diabetes, kidney diseases, cardiac conditions, and nervous system disorders.",
     },
     {
       q: "What is the fee for the Module 1 Diploma Course in Acupuncture?",

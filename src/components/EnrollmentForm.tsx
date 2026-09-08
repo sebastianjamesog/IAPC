@@ -142,7 +142,7 @@ export default function EnrollmentForm({ isOpen, onClose, defaultProgram = "Modu
                   className="w-full px-4 py-2.5 rounded-xl bg-[#1e1e1e] border border-[#b3b3b3]/30 text-[#ffffff] text-xs focus:outline-none focus:border-[#ffffff]"
                 >
                   <option value="Module 1: Diploma in Acupuncture (₹20,000)">
-                    Module 1: Diploma in Acupuncture (₹20,000 - 6 Months)
+                    Module 1: Diploma in Acupuncture (₹20,000)
                   </option>
                   <option value="Module 2: MD in Acupuncture from OIUCM">
                     Module 2: MD in Acupuncture from OIUCM (Clinical Specialization)
@@ -151,7 +151,7 @@ export default function EnrollmentForm({ isOpen, onClose, defaultProgram = "Modu
                     Module 3: PhD in Acupuncture from OIUCM (Thesis Research Guidance)
                   </option>
                   <option value="Module 4: Diploma in Reflexology (₹5,000)">
-                    Module 4: Diploma in Reflexology (₹5,000 - 2 Days)
+                    Module 4: Diploma in Reflexology (₹5,000)
                   </option>
                   <option value="General Admission & Counseling Inquiry">
                     General Admission & Counseling Inquiry

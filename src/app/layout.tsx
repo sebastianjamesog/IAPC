@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "Acupuncture Course Kochi Kaloor",
     "Diploma Course in Acupuncture",
     "Acupuncture Course Fee 20000",
-    "3 Month Acupuncture Course",
+    "Acupuncture Course",
     "Pain Management Acupuncture Kerala",
     "MD Acupuncture University Preparation",
     "PhD Acupuncture Research Guidance",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Institute of Acupuncture & Pain Control | Certified Diploma & Doctoral Guidance",
     description:
-      "Empowering Healing Through Ancient Wisdom & Modern Science. Certified 3-Month Diploma Course in Acupuncture for ₹20,000/-. Located at Kaloor, Kochi. Call +91 9847335788.",
+      "Empowering Healing Through Ancient Wisdom & Modern Science. Certified Diploma Course in Acupuncture for ₹20,000/-. Located at Kaloor, Kochi. Call +91 9847335788.",
     url: "https://iapc.com",
     siteName: "Institute of Acupuncture & Pain Control (IAPC)",
     locale: "en_US",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Institute of Acupuncture & Pain Control | Certified Acupuncture Education",
     description:
-      "Empowering Healing Through Ancient Wisdom & Modern Science. 3-Month Diploma Course (₹20,000) & Global University MD/PhD Guidance. Kaloor, Kochi.",
+      "Empowering Healing Through Ancient Wisdom & Modern Science. Diploma Course (₹20,000) & Global University MD/PhD Guidance. Kaloor, Kochi.",
     images: ["https://iapc.com/og-image.jpg"],
   },
   alternates: {
@@ -103,7 +103,7 @@ export default function RootLayout({
         "@id": "https://iapc.com/#diploma-course",
         name: "Diploma Course in Acupuncture",
         description:
-          "Comprehensive 3-month clinical diploma covering TCM theories, meridian pathways, point location, needling techniques, and specialized pain management for arthritis, back pain, migraines, and sciatica.",
+          "Comprehensive clinical diploma covering TCM theories, meridian pathways, point location, needling techniques, and specialized pain management for arthritis, back pain, migraines, and sciatica.",
         provider: {
           "@type": "Organization",
           name: "Institute of Acupuncture & Pain Control",
@@ -119,7 +119,6 @@ export default function RootLayout({
         hasCourseInstance: {
           "@type": "CourseInstance",
           courseMode: "Blended (Practical Workshops & Online Modules)",
-          duration: "P3M",
         },
       },
       {

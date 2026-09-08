@@ -22,7 +22,7 @@ export default function TestimonialsSection() {
     {
       name: "Ismail Kunj",
       role: "Diploma Graduate & Practitioner",
-      text: "The 3-month Diploma Course at IAPC provided exceptional practical exposure. The hands-on needle insertion techniques and meridian mapping gave me total confidence.",
+      text: "The Diploma Course at IAPC provided exceptional practical exposure. The hands-on needle insertion techniques and meridian mapping gave me total confidence.",
       rating: 5,
     },
     {

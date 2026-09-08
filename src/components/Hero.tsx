@@ -115,10 +115,7 @@ export default function Hero({ onOpenEnrollModal }: HeroProps) {
                   </div>
 
                   <div className="space-y-2 text-xs text-[#d4d4d4]">
-                    <div className="flex justify-between">
-                      <span className="text-[#b3b3b3]">Duration:</span>
-                      <span className="font-semibold text-[#ffffff]">3 Months Intensive</span>
-                    </div>
+
                     <div className="flex justify-between">
                       <span className="text-[#b3b3b3]">Clinical Scope:</span>
                       <span className="font-semibold text-[#d4d4d4]">7 Chronic Disease Categories</span>
