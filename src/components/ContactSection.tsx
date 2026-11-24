@@ -69,8 +69,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <span className="text-xs text-[#b3b3b3] block">Website Portal:</span>
-                    <a href="https://iapc.com" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-[#ffffff] hover:underline">
-                      www.iapc.com
+                    <a href="https://www.iapc.institute/" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-[#ffffff] hover:underline">
+                      www.iapc.institute
                     </a>
                   </div>
                 </div>

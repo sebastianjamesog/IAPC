@@ -92,7 +92,7 @@ export default function Footer() {
             <div className="space-y-2 text-[#d4d4d4]">
               <p className="flex items-center gap-2">
                 <Globe className="w-4 h-4 text-[#ffffff] shrink-0" />
-                <span>Domain: <strong className="text-[#ffffff]">iapc.com</strong></span>
+                <span>Domain: <strong className="text-[#ffffff]">www.iapc.institute</strong></span>
               </p>
               <p className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[#d4d4d4] shrink-0 mt-0.5" />
@@ -119,13 +119,13 @@ export default function Footer() {
 
         {/* Bottom Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[#b3b3b3]">
-          <p>© {new Date().getFullYear()} Institute of Acupuncture & Pain Control (IAPC). All rights reserved. Registered domain: <a href="https://iapc.com" className="text-[#ffffff] hover:underline">iapc.com</a></p>
+          <p>© {new Date().getFullYear()} Institute of Acupuncture & Pain Control (IAPC). All rights reserved. Registered domain: <a href="https://www.iapc.institute/" className="text-[#ffffff] hover:underline">www.iapc.institute</a></p>
           <div className="flex items-center gap-4 text-[11px]">
             <a href="#about" className="hover:text-[#ffffff]">Privacy Policy</a>
             <span>•</span>
             <a href="#about" className="hover:text-[#ffffff]">Terms of Admission</a>
             <span>•</span>
-            <a href="#contact" className="hover:text-[#ffffff]">Sitemap</a>
+            <a href="/sitemap.xml" className="hover:text-[#ffffff]">Sitemap</a>
           </div>
         </div>
 

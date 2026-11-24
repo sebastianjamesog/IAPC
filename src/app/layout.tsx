@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import { siteUrl, siteName, siteTitle, siteDescription } from "@/lib/site";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -9,26 +10,13 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://iapc.com"),
-  title: "Institute of Acupuncture & Pain Control | Module 1: Diploma, Module 2: MD & Module 3: PhD Guidance",
-  description:
-    "Empowering Healing Through Ancient Wisdom & Modern Science. Master clinical acupuncture with Module 1: Diploma Course for ₹20,000/- (W.H.O. Recognized), Module 2: MD, and Module 3: PhD at Parinamam Road, Kaloor, Kochi. Call +91 9847335788.",
-  keywords: [
-    "Institute of Acupuncture & Pain Control",
-    "IAPC Kochi",
-    "Acupuncture Course Kochi Kaloor",
-    "Diploma Course in Acupuncture",
-    "Acupuncture Course Fee 20000",
-    "Acupuncture Course",
-    "Pain Management Acupuncture Kerala",
-    "MD Acupuncture University Preparation",
-    "PhD Acupuncture Research Guidance",
-    "Acupuncture Dr V Mohandas",
-    "Total Health Through Alternative Medicines",
-  ],
-  authors: [{ name: "Institute of Acupuncture & Pain Control" }],
-  creator: "Institute of Acupuncture & Pain Control",
-  publisher: "IAPC",
+  metadataBase: new URL(siteUrl),
+  title: siteTitle,
+  description: siteDescription,
+  applicationName: "IAPC",
+  authors: [{ name: siteName }],
+  creator: siteName,
+  publisher: siteName,
   robots: {
     index: true,
     follow: true,
@@ -41,32 +29,21 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Institute of Acupuncture & Pain Control | Certified Diploma & Doctoral Guidance",
-    description:
-      "Empowering Healing Through Ancient Wisdom & Modern Science. Certified Diploma Course in Acupuncture for ₹20,000/-. Located at Kaloor, Kochi. Call +91 9847335788.",
-    url: "https://iapc.com",
-    siteName: "Institute of Acupuncture & Pain Control (IAPC)",
-    locale: "en_US",
+    title: siteTitle,
+    description: siteDescription,
+    url: siteUrl,
+    siteName,
+    locale: "en_IN",
     type: "website",
-    images: [
-      {
-        url: "https://iapc.com/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Institute of Acupuncture & Pain Control Banner",
-      },
-    ],
+    images: [{ url: "/images/hero.png", alt: "Acupuncture education at IAPC, Kochi" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Institute of Acupuncture & Pain Control | Certified Acupuncture Education",
-    description:
-      "Empowering Healing Through Ancient Wisdom & Modern Science. Diploma Course (₹20,000) & Global University MD/PhD Guidance. Kaloor, Kochi.",
-    images: ["https://iapc.com/og-image.jpg"],
+    title: siteTitle,
+    description: siteDescription,
+    images: ["/images/hero.png"],
   },
-  alternates: {
-    canonical: "https://iapc.com",
-  },
+  alternates: { canonical: siteUrl },
 };
 
 export default function RootLayout({
@@ -80,11 +57,10 @@ export default function RootLayout({
     "@graph": [
       {
         "@type": "EducationalOrganization",
-        "@id": "https://iapc.com/#organization",
+        "@id": `${siteUrl}#organization`,
         name: "Institute of Acupuncture & Pain Control",
         alternateName: "IAPC",
-        url: "https://iapc.com",
-        logo: "https://iapc.com/logo.png",
+        url: siteUrl,
         description:
           "Premier educational institution dedicated to authentic acupuncture education, clinical pain management, and global university degree preparation.",
         telephone: "+91-9847335788",
@@ -100,14 +76,15 @@ export default function RootLayout({
       },
       {
         "@type": "Course",
-        "@id": "https://iapc.com/#diploma-course",
+        "@id": `${siteUrl}#diploma-course`,
         name: "Diploma Course in Acupuncture",
         description:
           "Comprehensive clinical diploma covering TCM theories, meridian pathways, point location, needling techniques, and specialized pain management for arthritis, back pain, migraines, and sciatica.",
         provider: {
           "@type": "Organization",
           name: "Institute of Acupuncture & Pain Control",
-          sameAs: "https://iapc.com",
+          "@id": `${siteUrl}#organization`,
+          url: siteUrl,
         },
         offers: {
           "@type": "Offer",
@@ -116,41 +93,8 @@ export default function RootLayout({
           category: "Full Course All-Inclusive Fee",
           availability: "https://schema.org/InStock",
         },
-        hasCourseInstance: {
-          "@type": "CourseInstance",
-          courseMode: "Blended (Practical Workshops & Online Modules)",
-        },
       },
-      {
-        "@type": "FAQPage",
-        "@id": "https://iapc.com/#faq",
-        mainEntity: [
-          {
-            "@type": "Question",
-            name: "Who is eligible to enroll in the Diploma Course in Acupuncture?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "The Diploma Course is open to healthcare professionals (doctors, physiotherapists, nurses) and wellness enthusiasts/seekers wanting to master natural acupuncture healing.",
-            },
-          },
-          {
-            "@type": "Question",
-            name: "Does IAPC issue MD or PhD degrees directly?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "No. IAPC does not issue MD or PhD degrees directly. We provide preparatory coaching, clinical research mentorship, and academic guidance to help students qualify for MD and PhD degrees awarded by W.H.O. recognized Global Universities.",
-            },
-          },
-          {
-            "@type": "Question",
-            name: "What is the fee for the Diploma Course in Acupuncture?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "The full course fee is ₹20,000/- all-inclusive, covering tuition, practical needle kits, study materials, and certification exam fees.",
-            },
-          },
-        ],
-      },
+
     ],
   };
 
@@ -159,7 +103,7 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
         />
       </head>
       <body className="bg-[#2b2b2b] text-slate-100 antialiased min-h-screen flex flex-col selection:bg-[#ffffff] selection:text-[#2b2b2b]">
